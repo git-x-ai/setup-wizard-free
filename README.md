@@ -4,7 +4,7 @@
 
 ![Setup Wizard Free](assets/logo.png)
 
-**A free, open-source setup wizard for Windows applications**
+**A free, open-source helper tool for getting your AI free trial**
 
 [![License: DUAL-LICENSE](https://img.shields.io/badge/License-DUAL--LICENSE-blue.svg)](LICENSE)
 [![Windows](https://img.shields.io/badge/Platform-Windows-blue.svg)](https://www.microsoft.com/windows)
@@ -17,6 +17,7 @@
 
 ## 🚀 Features
 
+- **AI Trial Helper**: Step-by-step guide to get your AI free trial
 - **Multi-Architecture Support**: Builds for x64, x32 (ia32), and ARM64 Windows devices
 - **Modern UI**: Beautiful, responsive interface built with React and Tailwind CSS
 - **System Integration**: Direct access to Windows System Restore and System Protection
@@ -60,7 +61,7 @@
 ![System Restore](docs/screenshots/system-restore.png)
 *System Restore Integration*
 
-![Terms & License](docs/screenshots/terms.png)
+![Terms & License](docs/screenshots/terms-license.png)
 *Terms, License, and Support Information*
 
 </div>

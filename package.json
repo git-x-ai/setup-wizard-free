@@ -1,7 +1,7 @@
 {
   "name": "setup-wizard-free",
   "version": "1.0.0",
-  "description": "Free Setup Wizard Application",
+  "description": "A free, open-source helper tool for getting your AI free trial",
   "main": "dist/main.js",
   "homepage": "./",
   "author": "CCC Suite",
