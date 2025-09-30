@@ -31,9 +31,9 @@
 
 | Architecture | Download | Size |
 |-------------|----------|------|
-| **x64 (64-bit)** | [Download](releases/latest) | ~150 MB |
-| **x32 (32-bit)** | [Download](releases/latest) | ~150 MB |
-| **ARM64** | [Download](releases/latest) | ~150 MB |
+| **x64 (64-bit)** | [Download](releases/latest) | **88.9 MB** |
+| **x32 (32-bit)** | [Download](releases/latest) | **83.3 MB** |
+| **ARM64** | [Download](releases/latest) | **90.5 MB** |
 
 ### System Requirements
 
