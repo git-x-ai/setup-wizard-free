@@ -66,6 +66,23 @@
 
 </div>
 
+## 🔍 VirusTotal Analysis
+
+All installers have been scanned by multiple antivirus engines through VirusTotal for your security:
+
+| Architecture | VirusTotal Analysis | SHA256 Hash |
+|-------------|-------------------|-------------|
+| **x64 (64-bit)** | [![VirusTotal](https://img.shields.io/badge/VirusTotal-Analysis-blue.svg)](https://www.virustotal.com/gui/file/bc856dcf6c95da371c5f5061ef3b613e87f179c8fbb6650e8e950687ce111253?nocache=1) | `bc856dcf6c95da371c5f5061ef3b613e87f179c8fbb6650e8e950687ce111253` |
+| **x32 (32-bit)** | [![VirusTotal](https://img.shields.io/badge/VirusTotal-Analysis-blue.svg)](https://www.virustotal.com/gui/file/7feb901670a8e67ee2e774445bf590f33e65ec0204eff25f5c609f73df2feb6d?nocache=1) | `7feb901670a8e67ee2e774445bf590f33e65ec0204eff25f5c609f73df2feb6d` |
+| **ARM64** | [![VirusTotal](https://img.shields.io/badge/VirusTotal-Analysis-blue.svg)](https://www.virustotal.com/gui/file/563d9c30800f3518b6d823e3499180724d57a03a99b311b1bef76d994e9ebb55?nocache=1) | `563d9c30800f3518b6d823e3499180724d57a03a99b311b1bef76d994e9ebb55` |
+
+<div align="center">
+
+![VirusTotal Logo](docs/screenshots/virus-total.png)
+*All installers scanned and verified safe by VirusTotal*
+
+</div>
+
 ## 🚀 Quick Start
 
 ### For Users
