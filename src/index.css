@@ -1,0 +1,94 @@
+@import '@fontsource/poppins/300.css';
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar but keep functionality */
+.slide-content {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.slide-content::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
+
+/* Remove scrollbars completely */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Custom drag area */
+.drag-area {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+/* Slide transitions */
+.slide {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: translateX(0);
+  position: relative;
+}
+
+.slide.prev {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.slide.next {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+/* Ensure content fits in viewport */
+.main-content {
+  height: calc(100vh - 120px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  min-height: 0;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.slide-content::-webkit-scrollbar {
+  display: none; /* WebKit */
+}

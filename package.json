@@ -1,0 +1,53 @@
+{
+  "name": "setup-wizard-free",
+  "version": "1.0.0",
+  "description": "Free Setup Wizard Application",
+  "main": "dist/main.js",
+  "homepage": "./",
+  "author": "CCC Suite",
+  "license": "DUAL-LICENSE",
+  "scripts": {
+    "start": "npm run electron-dev",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron": "cross-env NODE_ENV=development electron .",
+    "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 --timeout 30000 && cross-env NODE_ENV=development electron .\"",
+    "electron-build": "npm run build && electron-builder",
+    "dist": "npm run build && electron-builder --publish=never",
+    "clean": "rimraf dist dist-electron",
+    "postinstall": "electron-builder install-app-deps",
+    "dev-simple": "npm run dev & timeout /t 3 /nobreak > nul & npm run electron",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "build:win": "npm run build && electron-builder --win",
+    "build:win-x64": "npm run build && electron-builder --config electron-builder-x64.json",
+    "build:win-ia32": "npm run build && electron-builder --config electron-builder-ia32.json",
+    "build:win-arm64": "npm run build && electron-builder --config electron-builder-arm64.json",
+    "build:all": "npm run build && electron-builder --win --x64 --ia32 --arm64",
+    "build:installers": "build-installers.bat",
+    "build:installers-ps": "powershell -ExecutionPolicy Bypass -File build-installers.ps1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "concurrently": "^8.2.2",
+    "cross-env": "^10.0.0",
+    "electron": "^38.2.0",
+    "electron-builder": "^24.6.4",
+    "postcss": "^8.4.38",
+    "prettier": "3.6.2",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.3",
+    "vite": "^7.1.7",
+    "vite-plugin-electron": "^0.29.0",
+    "wait-on": "^7.2.0"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^5.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

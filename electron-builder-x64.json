@@ -1,0 +1,47 @@
+{
+  "appId": "com.setupwizardfree.app",
+  "productName": "Setup Wizard Free",
+  "directories": {
+    "output": "dist-electron"
+  },
+  "extraMetadata": {
+    "version": "1.0.0",
+    "copyright": "Copyright © 2025 CCC Suite. All rights reserved."
+  },
+  "files": ["dist/**/*", "node_modules/**/*"],
+  "extraResources": [
+    {
+      "from": "assets/",
+      "to": "assets/",
+      "filter": ["**/*"]
+    }
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "assets/logo.ico",
+    "requestedExecutionLevel": "requireAdministrator",
+    "publisherName": "CCC Suite",
+    "legalTrademarks": "CCC Suite"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "installerIcon": "assets/logo.ico",
+    "uninstallerIcon": "assets/uninstall.ico",
+    "installerHeaderIcon": "assets/logo.ico",
+    "installerSidebar": "assets/wizard.bmp",
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "Setup Wizard Free",
+    "runAfterFinish": false,
+    "menuCategory": "Development Tools",
+    "deleteAppDataOnUninstall": true,
+    "oneClick": false,
+    "perMachine": false
+  }
+}
