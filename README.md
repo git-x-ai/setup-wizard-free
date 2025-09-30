@@ -55,13 +55,13 @@
 
 <div align="center">
 
-![Welcome Screen](docs/screenshots/welcome.png)
+![Welcome Screen](https://raw.githubusercontent.com/git-x-ai/setup-wizard-free/master/docs/screenshots/welcome.png)
 *Welcome Screen with modern gradient design*
 
-![System Restore](docs/screenshots/system-restore.png)
+![System Restore](https://raw.githubusercontent.com/git-x-ai/setup-wizard-free/master/docs/screenshots/system-restore.png)
 *System Restore Integration*
 
-![Terms & License](docs/screenshots/terms-license.png)
+![Terms & License](https://raw.githubusercontent.com/git-x-ai/setup-wizard-free/master/docs/screenshots/terms-license.png)
 *Terms, License, and Support Information*
 
 </div>
@@ -78,7 +78,7 @@ All installers have been scanned by multiple antivirus engines through VirusTota
 
 <div align="center">
 
-![VirusTotal Logo](docs/screenshots/virus-total.png)
+![VirusTotal Logo](https://raw.githubusercontent.com/git-x-ai/setup-wizard-free/master/docs/screenshots/virus-total.png)
 *All installers scanned and verified safe by VirusTotal*
 
 </div>
