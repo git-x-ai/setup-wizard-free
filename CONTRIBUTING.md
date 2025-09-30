@@ -33,7 +33,6 @@ Thank you for your interest in contributing to Setup Wizard Free! This document 
 
 ### Code Style
 
-- Use **Prettier** for code formatting
 - Follow **ESLint** rules
 - Use **functional components** with hooks
 - Prefer **const** over let, avoid var

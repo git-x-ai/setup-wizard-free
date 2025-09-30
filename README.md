@@ -117,7 +117,6 @@ npm run build:win-arm64  # Build ARM64 only
 
 # Utilities
 npm run clean            # Clean build directories
-npm run format           # Format code with Prettier
 ```
 
 ### Project Structure
